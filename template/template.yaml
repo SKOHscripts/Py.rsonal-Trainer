@@ -1,0 +1,125 @@
+---
+data:
+  - week_first_day: '2024-12-30'
+    trail_running:
+      - session_description: Trail
+        distance_km: 16.5
+        elevation_m: 319
+        time_min: 92
+        load: 189
+    others:
+      - session_description: Weight training
+        time_min: 61
+  - week_first_day: '2025-01-06'
+    footing:
+      - session_description: Footing
+        distance_km: 10.4
+        elevation_m: 7
+        time_min: 54
+        load: 127
+  - week_first_day: '2025-01-13'
+    footing:
+      - session_description: Footing
+        distance_km: 23.0
+        elevation_m: 320
+        time_min: 136
+        load: 250
+    trail_running:
+      - session_description: Trail
+        distance_km: 20.0
+        elevation_m: 416
+        time_min: 124
+        load: 203
+    others:
+      - session_description: Weight training
+        time_min: 105
+  - week_first_day: '2025-01-20'
+    week_comment: Raid
+    footing:
+      - session_description: Footing
+        distance_km: 16.0
+        elevation_m: 34
+        time_min: 94
+        load: 180
+    trail_running:
+      - session_description: Trail
+        distance_km: 81.5
+        elevation_m: 871
+        time_min: 876
+        load: 1051
+    others:
+      - session_description: Weight training
+        time_min: 92
+  - week_first_day: '2025-01-27'
+    others:
+      - session_description: Swimming
+        time_min: 55
+        load: 58
+  - week_first_day: '2025-02-03'
+    interval_training:
+      - session_description: C5-10% 24’ | 30’+6x3’/2’+10’
+        distance_km: 12.6
+        elevation_m: 10
+        time_min: 69
+        load: 158
+      - session_description: VMA 22’ | 30’+2x(3’/2’+5’/3’+3’/2’)/3’+10’
+        distance_km: 14.0
+        elevation_m: 341
+        time_min: 85
+        load: 156
+    footing:
+      - session_description: Footing
+        distance_km: 11.1
+        elevation_m: 0
+        time_min: 55
+        load: 147
+    bike:
+      - session_description: bike easy
+        distance_km: 13.3
+        elevation_m: 118
+        time_min: 53
+        load: 65
+    others:
+      - session_description: Weight training
+        time_min: 33
+  - week_first_day: '2025-02-10'
+    footing:
+      - session_description: Footing
+        distance_km: 21.9
+        elevation_m: 175
+        time_min: 124
+        load: 256
+    bike:
+      - session_description: easy bike
+        distance_km: 118.7
+        elevation_m: 1184
+        time_min: 347
+        load: 784
+  - week_first_day: '2025-02-17'
+  - week_first_day: '2025-02-24'
+  - week_first_day: '2025-03-03'
+  - week_first_day: '2025-03-10'
+  - week_first_day: '2025-03-17'
+  - week_first_day: '2025-03-24'
+  - week_first_day: '2025-03-31'
+  - week_first_day: '2025-04-07'
+  - week_first_day: '2025-04-14'
+  - week_first_day: '2025-04-21'
+  - week_first_day: '2025-04-28'
+  - week_first_day: '2025-05-05'
+  - week_first_day: '2025-05-12'
+  - week_first_day: '2025-05-19'
+  - week_first_day: '2025-05-26'
+  - week_first_day: '2025-06-02'
+  - week_first_day: '2025-06-09'
+  - week_first_day: '2025-06-16'
+  - week_first_day: '2025-06-23'
+  - week_first_day: '2025-06-30'
+  - week_first_day: '2025-07-07'
+  - week_first_day: '2025-07-14'
+  - week_first_day: '2025-07-21'
+  - week_first_day: '2025-07-28'
+  - week_first_day: '2025-08-04'
+  - week_first_day: '2025-08-11'
+  - week_first_day: '2025-08-18'
+  ...
