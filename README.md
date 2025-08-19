@@ -1,16 +1,8 @@
 # 🏃‍♂️🐍 Py.rsonal-Trainer 
-![status](https://img.shields.io/badge/status-in_construction-orange)<!-- Status & version -->
-![version](https://img.shields.io/github/milestones/progress-percent/SKOHscripts/Py.rsonal-Trainer?milestone=First%20Release%20(Alpha)&label=alpha%20progress)
 ![release](https://img.shields.io/github/v/release/SKOHscripts/Py.rsonal-Trainer?include_prereleases&label=latest%20tag)
-![last commit](https://img.shields.io/github/last-commit/SKOHscripts/Py.rsonal-Trainer)<!-- Repo activity -->
-![commit activity](https://img.shields.io/github/commit-activity/m/SKOHscripts/Py.rsonal-Trainer)
 ![issues open](https://img.shields.io/github/issues/SKOHscripts/Py.rsonal-Trainer)
-![prs open](https://img.shields.io/github/issues-pr/SKOHscripts/Py.rsonal-Trainer)
-![tests](https://img.shields.io/github/actions/workflow/status/SKOHscripts/Py.rsonal-Trainer/ci.yml?label=CI)<!-- CI & quality (enable later) -->
-![coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/your_gist_user/your_gist_id/raw/coverage.json)
 ![milestones open](https://img.shields.io/github/milestones/open/SKOHscripts/Py.rsonal-Trainer)<!-- Milestones -->
 ![milestones closed](https://img.shields.io/github/milestones/closed/SKOHscripts/Py.rsonal-Trainer)
-![license](https://img.shields.io/github/license/SKOHscripts/Py.rsonal-Trainer)<!-- License -->
 
 **Py.rsonal-Trainer** (*Python Personal Trainer*) is a modular Python application to **track, analyze and optimize endurance training** — running, trail, cycling, or ultra-distance — with integrated **load analysis**, **nutrition guidance**, and **performance testing tools**.
 
@@ -60,7 +52,7 @@ It uses a **JSON database** as the central data store, with:
 
 **Stage:** 🚧 **In Construction**  
 I am currently at **First Release (Alpha)** — building the **core data handling and basic load metrics**.  
-Full roadmap is defined with **versioned milestones**: from Alpha → v1.0 (UI release).
+Full roadmap is defined with **versioned milestones**: from Alpha → v1.0 (UI release) ([GitHub Milestones](https://github.com/SKOHscripts/Py.rsonal-Trainer/milestones)).
 
 ---
 
@@ -86,7 +78,7 @@ pip install -r requirements.txt
 
 
 ### 🚧 In development
-- [ ] JSON schema for athlete & activities
+- [ ] YAML schema for athlete & activities
 - [ ] Data loading/saving with validation
 - [ ] Daily load calculation (sRPE)
 - [ ] Weekly summaries
@@ -98,7 +90,7 @@ pip install -r requirements.txt
 - [ ] Import test results (VMA, FTP, LTHR)
 - [ ] Training zones derivation
 
-### 📅 Planned (See Milestones)
+### 📅 Planned (See [GitHub Milestones](https://github.com/SKOHscripts/Py.rsonal-Trainer/milestones))
 - [ ] Banister impulse–response model
 - [ ] Multi-metric load plugins (TRIMP, distance, elevation)
 - [ ] Data anomaly detection & alerts
@@ -120,47 +112,6 @@ All feature delivery and timing are tracked in [GitHub Milestones](https://githu
 - **0.8.0** → Intelligent CLI queries & alerts.
 - **0.9.0** → Banister model & alternative load metrics.
 - **v1.0.0** → **Full release** with UI.
-
----
-
-## ✨ Features vs Milestones
-
-> Project status: 🚧 In construction — delivery moments and targets are tracked in [GitHub Milestones](https://github.com/SKOHscripts/Py.rsonal-Trainer/milestones).
-
-| Feature | First Release (Alpha) | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 | v1.0 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| JSON schema (Athlete, Activity) | 🟨 |  |  |  |  |  |  |  |  |  |
-| Data I/O + validation | 🟨 |  |  |  |  |  |  |  |  |  |
-| Daily load (sRPE) | 🟨 |  |  |  |  |  |  |  |  |  |
-| Weekly summaries | 🟨 |  |  |  |  |  |  |  |  |  |
-| ATL/CTL (Rolling Avg 7/28) |  | 🟨 |  |  |  |  |  |  |  |  |
-| ACWR (RA) |  | 🟨 |  |  |  |  |  |  |  |  |
-| ATL/CTL (EWMA) |  |  | 🟨 |  |  |  |  |  |  |  |
-| ACWR (EWMA) + bands |  |  | 🟨 |  |  |  |  |  |  |  |
-| TSB (CTL−ATL) |  |  | 🟨 |  |  |  |  |  |  |  |
-| CLI summary |  |  |  | 🟨 |  |  |  |  |  |  |
-| CLI forecast (what-if ramp) |  |  |  | 🟨 |  |  |  |  |  |  |
-| CSV/MD report exports |  |  |  | 🟨 |  |  |  |  |  |  |
-| Nutrition events schema |  |  |  |  | 🟨 |  |  |  |  |  |
-| Nutrition recommendations |  |  |  |  | 🟨 |  |  |  |  |  |
-| Post-session nutrition gap |  |  |  |  | 🟨 |  |  |  |  |  |
-| Test results import (VMA/FTP/LTHR) |  |  |  |  |  | 🟨 |  |  |  |  |
-| Zones derivation (HR/Power/Pace) |  |  |  |  |  | 🟨 |  |  |  |  |
-| Load weighting by intensity |  |  |  |  |  | 🟨 |  |  |  |  |
-| Data anomaly detection |  |  |  |  |  |  | 🟨 |  |  |  |
-| CI coverage + perf benchmarks |  |  |  |  |  |  | 🟨 |  |  |  |
-| Structured query CLI |  |  |  |  |  |  |  | 🟨 |  |  |
-| Dynamic alerts & recommendations |  |  |  |  |  |  |  | 🟨 |  |  |
-| Banister impulse–response |  |  |  |  |  |  |  |  | 🟨 |  |
-| Load metric plugins (TRIMP/distance/elev) |  |  |  |  |  |  |  |  | 🟨 |  |
-| Viz-ready exports (JSON/CSV) |  |  |  |  |  |  |  |  | 🟨 |  |
-| UI (TUI/Streamlit) |  |  |  |  |  |  |  |  |  | 🟨 |
-| Packaging + docs (user guide) |  |  |  |  |  |  |  |  |  | 🟨 |
-
-Legend:
-- ✅ Delivered
-- 🟨 Planned in that milestone
-
 
 ---
 
