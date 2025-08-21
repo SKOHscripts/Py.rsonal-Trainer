@@ -1,4 +1,3 @@
----
 data:
   - week_first_day: '2024-12-30'
     trail_running:
@@ -96,6 +95,13 @@ data:
         time_min: 347
         load: 784
   - week_first_day: '2025-02-17'
+    week_comment: In a good shape
+    trail_running_race:
+      - session_description: Official trail race
+        distance_km: 70
+        elevation_m: 2500
+        time_min: 600
+        load: 784
   - week_first_day: '2025-02-24'
   - week_first_day: '2025-03-03'
   - week_first_day: '2025-03-10'
@@ -122,4 +128,3 @@ data:
   - week_first_day: '2025-08-04'
   - week_first_day: '2025-08-11'
   - week_first_day: '2025-08-18'
-  ...
