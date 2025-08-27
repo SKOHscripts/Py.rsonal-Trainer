@@ -4,6 +4,8 @@
 ![milestones open](https://img.shields.io/github/milestones/open/SKOHscripts/Py.rsonal-Trainer)<!-- Milestones -->
 ![milestones closed](https://img.shields.io/github/milestones/closed/SKOHscripts/Py.rsonal-Trainer)
 
+<a href="https://github.com/SKOHscripts/Py.rsonal-Trainer/blob/main/donate/redirect.html" target="_blank"><img src="http://KristinitaTest.github.io/donate/Bitcoin-Donate-button.png"></a>
+
 **Py.rsonal-Trainer** (*Python Personal Trainer*) is a modular Python application to **track, analyze and optimize endurance training** — running, trail, cycling, or ultra-distance — with integrated **load analysis**, **nutrition guidance**, and **performance testing tools**.
 
 > ⚠️ This project is currently **under active development**.  
